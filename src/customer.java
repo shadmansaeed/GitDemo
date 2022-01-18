@@ -250,6 +250,7 @@ public class customer extends shadman_test {
             
             Thread.sleep(2000);
             driver.findElement(By.id("android:id/button1")).click(); //click on yes button
+            
         
        // List<AndroidElement> pick = driver.findElements(By.className("android.widget.ImageButton"));   
          
@@ -258,6 +259,7 @@ public class customer extends shadman_test {
        // pick.get(0).sendKeys("21");
         //pick.get(1).sendKeys("Mar");
        // pick.get(2).sendKeys("2001");
+         // pick.get(2).sendKeys("2001");
 	}
 
 }
