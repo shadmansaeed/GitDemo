@@ -60,6 +60,8 @@ public class gesture extends shadman_test {
 	    	    
 	    	    TouchAction action = new TouchAction(driver);
 	    	    action.longPress(longPressOptions).release().perform();
+	    	    
+	    	    driver.findElement(By.id("android:id/button2")).click(); //need to delete
 	    
 
 		
